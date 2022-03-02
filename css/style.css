@@ -151,7 +151,7 @@ img {
 
 .footer {
   background-color: #c4c4c4;
-  position: absolute;
+  position: fixed;
   height: 50px;
   bottom: 0px;
   left: 0px;
