@@ -25,16 +25,11 @@ a {
 }
 
 .top-bar {
-  /* display: inline-flex; */
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
 }
-
-/* .container {
-  height: 100vh;
-} */
 
 img {
   max-width: 100%;
