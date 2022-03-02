@@ -281,8 +281,16 @@ img {
   font-size: 20px;
 }
 
-#about-page img {
-  width: 350px;
+#about-page .table-image td {
+  width: 300px;
+}
+
+#about-page #mert-info td {
+  padding-left: 80px;
+}
+
+#about-page #berkay-info td {
+  padding-right: 80px;
 }
 
 /************************ CONTACT PAGE STYLES ********************/
