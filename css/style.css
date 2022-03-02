@@ -32,9 +32,9 @@ a {
   justify-content: space-between;
 }
 
-.container {
+/* .container {
   height: 100vh;
-}
+} */
 
 img {
   max-width: 100%;
@@ -151,7 +151,7 @@ img {
 
 .footer {
   background-color: #c4c4c4;
-  position: fixed;
+  position: relative;
   height: 50px;
   bottom: 0px;
   left: 0px;
@@ -161,6 +161,7 @@ img {
   align-items: center;
   font-family: Mulish;
   font-size: 12px;
+  clear: both;
 }
 
 .footer .copyright-message img {
@@ -183,6 +184,7 @@ img {
 .main {
   height: calc(100vh - 130px);
   width: 100%;
+  overflow:auto;
 }
 
 .main h1 {
@@ -399,6 +401,7 @@ img {
   font-family: Marvel;
   font-size: 28px;
   color: #eeeeee;
+  text-align: center;
 }
 
 .car-details .available {
@@ -420,10 +423,11 @@ img {
 /******** PAYMENT FORM ********/
 
 .payment-form {
-  background-color: #eeeeee;
   padding: 10px 40px;
   border-radius: 40px;
   font-family: Marvel;
+  background: rgb(183,187,191);
+  background: linear-gradient(45deg, rgba(183, 187, 191, 0.9) 0%, rgba(219,228,228,1) 50%, rgba(238,238,238,1) 100%);
 }
 
 .payment-form input {
@@ -468,4 +472,66 @@ img {
 .payment-form #submit:hover {
   background-color: #222831;
   color: #eeeeee;
+}
+
+
+/******************** PAYMENT RECEIVED PAGE *********************/
+
+#payment-page {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.payment-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.payment-logo h2 {
+  font-size: 94px;
+  font-family: Marvel;
+  color: #eeeeee;
+  margin-left: 30px;
+}
+
+.payment-approved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.payment-approved img {
+  width: 80px;
+}
+
+.payment-approved h2 {
+  font-size: 36px;
+  font-family: Marvel;
+  color: #eeeeee;
+}
+
+#payment-page p {
+  color: #eeeeee;
+  font-family: Marvel;
+  font-size: 24px;
+}
+
+.close-button {
+  background-color: #00adb5;
+  border: none;
+  height: 50px;
+  font-family: Marvel;
+  font-size: 24px;
+  width: 200px;
+  color: #eeeeee;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+.close-button:hover {
+  background-color: #eeeeee;
+  color: #222831;
 }
